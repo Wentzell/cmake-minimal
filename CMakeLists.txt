@@ -5,7 +5,7 @@ cmake_policy(VERSION 3.23...3.30)
 project(Awesome VERSION 1.0 LANGUAGES CXX)
 
 # Include the CMake Package Manager
-include(cmake/CPM.cmake)
+include(cmake/get_cpm.cmake)
 
 # Build our library
 add_subdirectory(lib)
