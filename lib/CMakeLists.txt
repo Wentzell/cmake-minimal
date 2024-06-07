@@ -8,12 +8,6 @@ target_sources(awesome
     FILES awesome.hpp
 )
 
-## Set the include directory
-#target_include_directories(awesome PUBLIC
-#  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
-#  $<INSTALL_INTERFACE:${CMAKE_INSTALL_PREFIX}/include>
-#)
-
 # Set C++ standard to C++20 for the library
 target_compile_features(awesome PUBLIC cxx_std_20)
 
